@@ -1,0 +1,14 @@
+git lfs install
+
+# Asset Quality
+git lfs track "*.png" "*.jpg" "*.webp" "*.vox" "*.vxm" "*.mp4" "*.mov"
+
+# Asset Integration
+git lfs track "*.bundle" "*.vox" "*.vxm"
+
+# Playtesting
+git lfs track "*.mp4" "*.mov" "*.png"
+
+git add .gitattributes
+git commit -m "Configure Git LFS tracking"
+```
