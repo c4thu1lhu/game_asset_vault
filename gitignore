@@ -1,0 +1,38 @@
+# =============================================
+# Playtesting — .gitignore
+# =============================================
+
+# --- OS & System ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor & IDE ---
+.vscode/
+.idea/
+
+# --- Raw / Uncut Recordings ---
+recordings/raw/
+captures/uncut/
+video/raw/
+
+# --- Temp & Scratch Files ---
+*.tmp
+*.bak
+*~
+scratch/
+_temp/
+_personal/
+
+# --- Large export files ---
+exports/
+renders/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Private / Sensitive Tester Data ---
+tester-pii/
+feedback/private/
+.env
