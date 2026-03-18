@@ -1,0 +1,30 @@
+# =============================================
+# Playtesting — .gitattributes
+# Git LFS tracking for binary & large files
+# =============================================
+
+# --- Video / Session Recordings ---
+*.mp4  filter=lfs diff=lfs merge=lfs -text
+*.mov  filter=lfs diff=lfs merge=lfs -text
+*.avi  filter=lfs diff=lfs merge=lfs -text
+*.mkv  filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text
+
+# --- Voxel / Game-specific formats ---
+*.vox  filter=lfs diff=lfs merge=lfs -text
+*.vxm  filter=lfs diff=lfs merge=lfs -text
+
+# --- Screenshots & Captures ---
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.jpg  filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.gif  filter=lfs diff=lfs merge=lfs -text
+
+# --- Text & data files (regular Git) ---
+*.md   text eol=lf
+*.txt  text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
