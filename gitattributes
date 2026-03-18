@@ -1,0 +1,35 @@
+# =============================================
+# Asset Integration — .gitattributes
+# Git LFS tracking for binary & large files
+# =============================================
+
+# --- Bundle Files ---
+*.bundle filter=lfs diff=lfs merge=lfs -text
+
+# --- Voxel Files ---
+*.vox    filter=lfs diff=lfs merge=lfs -text
+*.vxm    filter=lfs diff=lfs merge=lfs -text
+
+# --- Images (integration references) ---
+*.png    filter=lfs diff=lfs merge=lfs -text
+*.jpg    filter=lfs diff=lfs merge=lfs -text
+*.jpeg   filter=lfs diff=lfs merge=lfs -text
+*.tga    filter=lfs diff=lfs merge=lfs -text
+
+# --- Video (integration test captures) ---
+*.mp4    filter=lfs diff=lfs merge=lfs -text
+*.mov    filter=lfs diff=lfs merge=lfs -text
+
+# --- Engine / Compiled Assets ---
+*.asset  filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text
+*.unity  filter=lfs diff=lfs merge=lfs -text
+
+# --- Text & config files (regular Git) ---
+*.md     text eol=lf
+*.txt    text eol=lf
+*.json   text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+*.csv    text eol=lf
+*.scene  text eol=lf
