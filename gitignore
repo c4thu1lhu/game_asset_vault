@@ -1,0 +1,44 @@
+# =============================================
+# Asset Quality — .gitignore
+# =============================================
+
+# --- OS & System ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# --- Editor & IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Temp & Working Files ---
+*.tmp
+*.bak
+*.swp
+*~
+scratch/
+_temp/
+_wip/
+
+# --- Raw / Unprocessed Exports ---
+raw-exports/
+exports/unprocessed/
+capture/raw/
+
+# --- Large source files not needed in repo ---
+*.psd
+*.ai
+*.afdesign
+*.xcf
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Build artifacts ---
+build/
+dist/
+out/
