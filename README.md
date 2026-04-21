@@ -85,5 +85,4 @@ git push origin --tags
 
 ## 📌 Contacts & Links
 
-- **Project Lead:** _TBD_
 - **Related Repos:** [Asset Quality](#) · [Playtesting](#)
